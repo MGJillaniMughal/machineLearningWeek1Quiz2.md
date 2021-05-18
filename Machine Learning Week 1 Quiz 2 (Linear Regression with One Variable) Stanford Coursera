@@ -1,0 +1,77 @@
+Linear Regression with One Variable
+TOTAL POINTS 5
+1.
+Question 1
+Consider the problem of predicting how well a student does in her second year of college/university, given how well she did in her first year.
+
+  Specifically, let x be equal to the number of "A" grades (including A-. A and A+ grades) that a student receives in their first year of college (freshmen year).  We would like to predict the value of y, which we define as the number of "A" grades they get in their second year (sophomore year).
+
+Here each row is one training example. Recall that in linear regression, our hypothesis is h_\theta(x) = \theta_0 + \theta_1xh 
+θ
+​	
+ (x)=θ 
+0
+​	
+ +θ 
+1
+​	
+ x, and we use mm to denote the number of training examples.
+
+
+  For the training set given above (note that this training set may also be referenced in other questions in this quiz), what is the value of mm?  In the box below, please enter your answer (which should be a number between 0 and 10).
+
+Ans: 4
+
+2.
+Question 2
+For this question, assume that we are
+using the training set from Q1. Recall our definition of the 
+cost function was J(θ 0,θ 1)= 2m 1 ∑ i=1 m(h θ(x (i) )−y (i) ) 2
+   What is J(0, 1)J(0,1)? In the box below,
+
+      please enter your answer (Simplify fractions to decimals when entering answer, and '.' as the decimal delimiter e.g., 1.5).
+Ans:
+θ0=0,θ1=0.5
+
+Question 3
+Suppose we set \theta_0 = -1, \theta_1 = 2θ 
+0 =−1,θ 1 =2 in the linear regression hypothesis from Q1. What is h_{\theta}(6)h θ​(6)?
+Ans:
+Setting x = 4, we have hθ(x)=θ0+θ1x = -1 + (0.5)(4) = 1
+
+Question 4
+Let ff be some function so that 
+
+        f(\theta_0, \theta_1)f(θ 
+0
+​	
+ ,θ 
+1
+​	
+ ) outputs a number. For this problem,
+
+        ff is some arbitrary/unknown smooth function (not necessarily the
+
+        cost function of linear regression, so ff may have local optima). 
+
+        Suppose we use gradient descent to try to minimize f(\theta_0, \theta_1)f(θ 
+0
+​	
+ ,θ 
+1
+​	
+ )
+
+        as a function of \theta_0θ 
+0
+​	
+  and \theta_1θ 
+1
+​	
+ . Which of the
+
+        following statements are true? (Check all that apply.)
+ Ans:
+ 
+If the first few iterations of gradient descent cause f(\theta_0, \theta_1)f(θ 0,θ 1) to  increase rather than decrease, then the most likely cause is that we have set the learning rate \alphaα to too large a value.
+
