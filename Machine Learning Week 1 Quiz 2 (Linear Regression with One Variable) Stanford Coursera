@@ -75,3 +75,14 @@ Let ff be some function so that
  
 If the first few iterations of gradient descent cause f(\theta_0, \theta_1)f(θ 0,θ 1) to  increase rather than decrease, then the most likely cause is that we have set the learning rate \alphaα to too large a value.
 
+5.
+Question 5
+Suppose that for some linear regression problem (say, predicting housing prices as in the lecture), we have some training set, and for our training set we managed to find some \theta_0θ 
+0, \theta_1θ 1 such that J(\theta_0, \theta_1)=0J(θ 0,θ 1 )=0. 
+
+Which of the statements below must then be true? (Check all that apply.)
+Ans:
+
+For these values of \theta_0θ 0 and \theta_1θ 1 that satisfy J(\theta_0, \theta_1) = 0J(θ 0,θ 1)=0, we have that h_\theta(x^{(i)}) = y^{(i)}h θ
+(x(i))=y (i)for every training example (x^{(i)}, y^{(i)})(x (i),y (i) )
+
